@@ -1,0 +1,46 @@
+.credit-card-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.credit-card-container h2 {
+  text-align: center;
+}
+
+.input-error {
+  color: red;
+  font-size: 14px;
+}
+
+.supported-cards {
+  margin-top: 20px;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-icons i {
+  font-size: 32px;
+  margin: 0 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,17 @@
+.card-header {
+    cursor: pointer;
+    background-color: #f8f9fa;
+  }
+  
+  .card-header:hover {
+    background-color: #e9ecef;
+  }
+  
+  .card-body {
+    display: none;
+  }
+  
+  .card-body.active {
+    display: block;
+  }
+  

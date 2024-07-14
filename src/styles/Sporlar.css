@@ -1,0 +1,12 @@
+.sport-card {
+    height: 400px; /* Kartın yüksekliği */
+    width: 400px; /* Kartın genişliği */
+    
+  }
+  .card-img-top {
+    height: 250px; /* Görüntüyü kartın boyutuna uyacak şekilde ölçekleyin */
+  }
+  
+  
+  
+  

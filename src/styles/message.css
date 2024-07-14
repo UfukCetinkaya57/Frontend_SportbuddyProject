@@ -1,0 +1,32 @@
+/* Message.css */
+
+.message-box {
+    overflow-y: auto;
+    max-height: 400px; /* Mesaj kutusu için maksimum yükseklik */
+}
+  
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+  
+.sent {
+    /* Gönderilen mesaj arka plan rengi */
+    align-self: flex-end;
+}
+  
+.received {
+    background-color: #E8E8E8; /* Alınan mesaj arka plan rengi */
+    align-self: flex-start;
+}
+  
+.sender {
+    font-weight: bold;
+}
+  
+.timestamp {
+    font-size: 0.8em;   
+    color: #666;
+}

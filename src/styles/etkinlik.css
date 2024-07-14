@@ -1,0 +1,14 @@
+/* Örnek stil kuralları */
+.filter-form input[type="text"] {
+  width: 350px;
+}
+
+.filter-form .form-group label {
+  font-size: 14px;
+  
+}
+
+.city-filter-input {
+  width: calc(100% - 30px); /* Özel genişlik ayarı */
+}
+

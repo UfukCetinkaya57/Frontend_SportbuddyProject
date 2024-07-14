@@ -1,0 +1,110 @@
+.landing-page-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .landing-page-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .landing-page-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-dark {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .btn-dark:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .sport-image-container {
+    position: relative;
+  }
+  
+  .sport-image-container img {
+    width: 400px;
+    height: 300px;
+    
+    border-radius: 5px;
+  }
+  
+  .sport-image-container img:hover {
+    opacity: 0.9;
+  }
+  
+  .sport-image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .sport-image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .landing-page-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-text {
+    color: #666;
+    font-size: 1rem;
+  }
+  .btn-dark {
+    background-color: #11538C; /* Koyu mavi renk */
+    border-color: #11538C; /* Kenarlık rengi de koyu mavi */
+  }
+  
+  .btn-dark:hover {
+    background-color: #084478; /* Koyu mavi renk hoversı için biraz daha açık mavi */
+    border-color: #11538C; /* Kenarlık rengi hoversı için biraz daha açık mavi */
+  }
+  
+  .btn-dark:focus, .btn-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 139, 0.5); /* Odaklandığında bir gölge ekleyerek vurgulama */
+  }
+  
+  .sport-image-container img:hover {
+    transform: scale(1.05); /* Görüntüyü biraz büyüt */
+    transition: transform 0.2s ease; /* Geçiş efektini uygula */
+  }
+  .landing-page-heading, .landing-page-description, .footer-text {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  
+  
+  

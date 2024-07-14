@@ -1,0 +1,144 @@
+/* loginRegister.css */
+
+/* Genel stiller */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+span {
+  color: green;
+  font-weight: 200;
+  font-size: medium;
+  
+}
+
+.register-link:hover {
+  color: #FF5733;
+  cursor: pointer;
+}
+
+.login-link:hover {
+  color: #33FF57;
+  cursor: pointer;
+}
+
+/* Responsive stiller */
+@media (max-width: 600px) {
+  .form-container,
+  .modal,
+  .modal-overlay {
+    width: 80%;
+  }
+}
+
+/* App.css */
+
+.login-register-container {
+  width: 100%;
+  background-image: url('../assets/img.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.login-register-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.modal-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5); /* Ekranı karanlıklaştırmak için arka plan rengi */
+}
+
+.modal1 {
+  width: 80%; /* Modal genişliği */
+  max-width: 600px; /* Maksimum genişlik */
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.form-container1 {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.success-message {
+  color: #5cb85c;
+  font-weight: bold;
+}
+
+.register-link,
+.login-link {
+  color: #3498db;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 75px;
+  display: block; /* Yatay alandan dikey alana geçiş */
+  text-align: center; /* Metni yatay olarak ortalar */
+}
+
+/* Input stilleri */
+/* Input stilleri */
+input {
+  width: 100%;
+  padding: 7px; /* Örnek olarak 8px padding */
+  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  font-size: 10px; /* Örnek olarak 14px font boyutu */
+}
+
+
+button:hover {
+  background-color: #1cc45c;
+}
+
+  
